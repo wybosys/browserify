@@ -1,14 +1,14 @@
 {
-  "name": "browserify",
-  "version": "16.5.1",
-  "description": "browser-side require() the node way",
+  "name": "browserify-f",
+  "version": "0.0.1",
+  "description": "继承 browserify/browserify，解决工具链升级后和老库配合失败的问题",
   "main": "index.js",
   "bin": {
     "browserify": "bin/cmd.js"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/browserify/browserify.git"
+    "url": "http://github.com/wybosys/browserify.git"
   },
   "engines": {
     "node": ">= 0.8"
@@ -65,7 +65,7 @@
     "subarg": "^1.0.0",
     "syntax-error": "^1.1.1",
     "through2": "^2.0.0",
-    "timers-browserify": "^1.0.1",
+    "timers-browserify": "^2.0.11",
     "tty-browserify": "0.0.1",
     "url": "~0.11.0",
     "util": "~0.10.1",
@@ -88,9 +88,8 @@
     "through": "^2.3.4"
   },
   "author": {
-    "name": "James Halliday",
-    "email": "mail@substack.net",
-    "url": "http://substack.net"
+    "name": "wybosys",
+    "email": "wybosys@gmail.com"
   },
   "scripts": {
     "test": "tap test/*.js"
